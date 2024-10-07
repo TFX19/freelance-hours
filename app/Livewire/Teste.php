@@ -13,10 +13,11 @@ class Teste extends Component
     public function render()
     {
 
-        return view('livewire.teste',[
+        return view('livewire.teste', [
+
             'users' => User::query()
 
-            ->when($this->search, fn ($q) => $q->where('name', 'like', "%{$this->search}"))
+            ->when($this->search, fn($q) => $q->where('name', 'like', "%{$this->search}%"))
 
             ->get(),
 
