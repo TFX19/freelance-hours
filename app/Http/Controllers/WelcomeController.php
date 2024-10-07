@@ -14,12 +14,13 @@ class WelcomeController extends Controller
     {
 
         // $user = User::query()->create([
-        //     'name' => 'Tiago',
-        //     'email' => 'tiago@email.com',
-        //     'password'=> 'tiago',
+        //     'name' => 'Tiagooo',
+        //     'email' => 'tiagooo@email.com',
+        //     'password'=> 'tiagooo',
         // ]);
 
-        //dd($user);
+        // dd($user);
+        
 
         //1:15:50
         //Auth::login($user);

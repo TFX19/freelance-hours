@@ -1,6 +1,9 @@
 
 <div>
-   <input wire:model.live="search"/>
+   <h1>componente livewire</h1>
+   <br>
+
+   <input wire:model.live="search" />
 
    <br>
 
