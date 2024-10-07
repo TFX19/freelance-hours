@@ -3,7 +3,7 @@
    <h1>componente livewire</h1>
    <br>
 
-   <input wire:model.live="search" />
+   <input wire:model.live="search" placeholder="procurar utilizadores" />
 
    <br>
 
