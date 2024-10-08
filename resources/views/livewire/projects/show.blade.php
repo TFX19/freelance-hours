@@ -1,7 +1,7 @@
 <div>
     component livewire projects show
 
-    {{-- @dump($project) --}}
+    {{-- @dump($project) 1:01 --}}
 
     <pre>
         title: {{ $project->title }}
