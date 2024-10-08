@@ -1,15 +1,10 @@
-<div>
-   component livewire projects index
+<div class="grid grid-cols-2 gap-4">
 
    @foreach ($this->projects as $project)
-       
-    <li>
 
             <a href="{{ route('projects.show', $project)}}">
-                {{ $project->id }}. {{ $project->title }}
+                <x-project-cardsimple :$project />
             </a>
-
-    </li>
 
    @endforeach
 </div>

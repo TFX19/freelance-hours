@@ -1,7 +1,11 @@
-<div>
-  
-    <livewire:projects.show :$project />
+<x-layouts.app>
+    
+    <div class="grid grid-cols-3 gap-6">
 
-    <livewire:projects.proposals :$project />
+        <livewire:projects.show :$project />
 
-</div>
+        <livewire:projects.proposals :$project />
+
+    </div>
+
+</x-layouts.app>
