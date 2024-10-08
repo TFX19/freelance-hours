@@ -5,7 +5,7 @@ export default {
   ],
   theme: {
     extend: {
-        font: {
+        fontFamily: {
             sans: ['Segoe UI', 'Roboto', 'sans-serif'],
         }
     },
