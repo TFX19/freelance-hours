@@ -21,10 +21,6 @@ class WelcomeController extends Controller
 
         // dd($user);
         
-
-        //1:15:50
-        //Auth::login($user);
-
         return view('welcome');
     }
 }
