@@ -9,6 +9,8 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
+
 </head>
 <body class="bg-[#070715] flex flex-col min-h-full text-[#C3C3D1]">
 <x-ui.navbar/>

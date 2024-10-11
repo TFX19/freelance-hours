@@ -16,7 +16,7 @@
             </div>
         </div>
         <div>
-            <livewire:proposals.create />
+            <livewire:proposals.create :$project />
 
            
             <div class="flex items-center justify-between mt-4 text-[14px]">
